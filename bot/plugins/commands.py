@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Join @Ottrockers2k', url="https://t.me/Ottrockers2k"
                                 )
                         ]
                     ]
@@ -47,10 +47,8 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
-    ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Channel', url='https://t.me/Ottrockers2k'),
+        InlineKeyboardButton('Group', url ='https://t.me/Tentkottagroup')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
